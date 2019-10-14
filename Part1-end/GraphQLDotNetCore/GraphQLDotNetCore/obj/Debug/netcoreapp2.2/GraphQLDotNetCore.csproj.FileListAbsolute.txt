@@ -1,0 +1,16 @@
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\GraphQLDotNetCore.deps.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\GraphQLDotNetCore.runtimeconfig.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\GraphQLDotNetCore.runtimeconfig.dev.json
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\GraphQLDotNetCore.dll
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\bin\Debug\netcoreapp2.2\GraphQLDotNetCore.pdb
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.csprojAssemblyReference.cache
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.RazorAssemblyInfo.cache
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.RazorAssemblyInfo.cs
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.AssemblyInfo.cs
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.dll
+C:\Users\Benjamin\Documents\GitHub\graphql-series\Part1-end\GraphQLDotNetCore\GraphQLDotNetCore\obj\Debug\netcoreapp2.2\GraphQLDotNetCore.pdb

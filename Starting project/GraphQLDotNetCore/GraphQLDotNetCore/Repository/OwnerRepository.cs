@@ -14,6 +14,6 @@ namespace GraphQLDotNetCore.Repository
             _context = context;
         }
 
-        public IEnumerable<Owner> GetAll() => _context.Owners.Select(x => x).ToList();
+        public IEnumerable<Owner> GetAll() => _context.Owners.ToList();
     }
 }
