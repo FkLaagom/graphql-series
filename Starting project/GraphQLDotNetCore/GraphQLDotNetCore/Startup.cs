@@ -1,5 +1,9 @@
-﻿using GraphQLDotNetCore.Contracts;
+﻿using GraphQL;
+using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
+using GraphQLDotNetCore.Contracts;
 using GraphQLDotNetCore.Entities;
+using GraphQLDotNetCore.GraphQL;
 using GraphQLDotNetCore.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,9 +28,15 @@ namespace GraphQLDotNetCore
         {
             services.AddDbContext<ApplicationContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("sqlConString")));
-
+           
             services.AddScoped<IOwnerRepository, OwnerRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
+
+            services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
+            services.AddScoped<AppSchema>();
+
+            services.AddGraphQL(o => { o.ExposeExceptions = false; })
+                .AddGraphTypes(ServiceLifetime.Scoped);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(options => options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
@@ -44,6 +54,9 @@ namespace GraphQLDotNetCore
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseGraphQL<AppSchema>();
+            app.UseGraphQLPlayground(options: new GraphQLPlaygroundOptions());
 
             app.UseHttpsRedirection();
             app.UseMvc();

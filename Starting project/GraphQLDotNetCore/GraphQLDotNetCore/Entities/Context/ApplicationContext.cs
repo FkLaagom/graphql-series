@@ -12,7 +12,10 @@ namespace GraphQLDotNetCore.Entities
         public ApplicationContext(DbContextOptions options)
             :base(options)
         {
+            
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlServer(@"Data Source=DESKTOP-SE1DVRQ\SQLEXPRESS;Initial Catalog=GQL;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=FalseData Source=DESKTOP-SE1DVRQ\SQLEXPRESS;Initial Catalog=GQL;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
